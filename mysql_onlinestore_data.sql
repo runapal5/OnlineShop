@@ -1,0 +1,5 @@
+INSERT INTO `Basket` VALUES (1),(2),(3);
+INSERT INTO `Supplier` VALUES (1,'Caxton Books'),(2,'Caxton Books'),(3,'Marvel Comics'),(4,'Caxton Books'),(5,'EA Sports'),(6,'Rockstar Games');
+INSERT INTO `Price` VALUES (1,100,159,1),(2,120,169,2),(3,40,10,3),(4,100,159,4),(5,250,550,5),(6,299,750,6);
+INSERT INTO `Product` VALUES ('BOOK',1,'Science Fiction Classic','War of the Worlds','1133857396',NULL,1),('BOOK',2,'Science Fiction Classic','Life the Universe and Everything','1133857396',NULL,2),('BOOK',3,'Comic Book','The Amazing X-Men','1133857396',NULL,3),('BOOK',4,'Comic Book','Uncanny X-men','1133857396',NULL,4),('GAME',5,'Soccer Simulation','FIFA 14',NULL,'PS3',5),('GAME',6,'Open World Third Person','Grand Theft Auto V',NULL,'PS3',6);
+INSERT INTO `User` VALUES ('PERSON',1,'W6ph5Mm5Pz8GgiULbPgzG37mj9g=','aziz','Aziz','Hendricks',NULL,NULL,1),('PERSON',2,'W6ph5Mm5Pz8GgiULbPgzG37mj9g=','admin','admin','admin',NULL,NULL,2),('COMPANY',3,'W6ph5Mm5Pz8GgiULbPgzG37mj9g=','company',NULL,NULL,'Big Company','vat1234',3);
