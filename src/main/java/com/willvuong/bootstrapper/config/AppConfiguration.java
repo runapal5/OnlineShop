@@ -32,7 +32,7 @@ public class AppConfiguration {
     @Bean
     public Properties getHibernateProperties(){
         Properties properties = new Properties();
-        properties.setProperty("hibernate.hbm2ddl.auto", "validate");
+        properties.setProperty("hibernate.hbm2ddl.auto", "update");
         properties.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQLDialect");
         properties.setProperty("hibernate.connection.driver_class", "com.mysql.jdbc.Driver");
         //properties.setProperty("hibernate.connection.url", "jdbc:mysql://172.17.0.7:3306/onlinestore");
