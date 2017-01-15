@@ -60,6 +60,7 @@ public class DataLoader implements ApplicationListener<ContextRefreshedEvent>{
             /* ContextRefreshedEvent could be triggered more than once, 
                therefore build in a check to prevent this from running twicw
              */
+			 /*
             if(DataLoader.isDataLoaded != true){
              
              logger.info("-------------------------------");
@@ -91,6 +92,7 @@ public class DataLoader implements ApplicationListener<ContextRefreshedEvent>{
              DataLoader.isDataLoaded = true;   
             
               }
+			  */
         }
         
         /**
